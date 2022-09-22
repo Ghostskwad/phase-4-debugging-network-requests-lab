@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Terminal referenced a name error on Toy(s), which by convention should have just been Toy.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: react indicated no JSON input on the patch request, meaning the backend wasn't rendering the JSON
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Error code indicated there was no route for DELETE, so I added a destroy route.
